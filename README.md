@@ -9,3 +9,6 @@ Done with commands:
 - `npm init pilet`
 
 Remember to publish your pilet into the feed service.
+
+Debug the pilet with the app shell with:
+- `npx pilet debug --app app-shell`

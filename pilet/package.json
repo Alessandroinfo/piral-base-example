@@ -13,7 +13,8 @@
     "piral-cli": "0.15.8",
     "piral-cli-webpack5": "0.15.8",
     "tslib": "2.3.1",
-    "typescript": "latest"
+    "typescript": "latest",
+    "app-shell": "file:../app-shell/dist/emulator/app-shell-1.0.1.tgz"
   },
   "scripts": {
     "start": "pilet debug",

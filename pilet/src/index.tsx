@@ -10,4 +10,3 @@ export function setup(app: PiletApi) {
   root.render(element);
   console.log('Here');
 }
-
