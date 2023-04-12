@@ -10,5 +10,7 @@ Done with commands:
 
 Remember to publish your pilet into the feed service.
 
-Debug the pilet with the app shell with:
+Debug the pilet with a specific app shell with:
 - `npx pilet debug --app app-shell`
+
+In order to work you need to put the app-shell in package.json as a dev dependence.
