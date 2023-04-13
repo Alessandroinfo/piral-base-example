@@ -1,4 +1,6 @@
 import { startLoadingPilets, createListener } from 'piral-base';
+//  This is a manual orchestration of the layout
+//  needed if we only use piral-base
 import './global';
 import './layout';
 

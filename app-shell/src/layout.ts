@@ -29,13 +29,6 @@ class MfComponent extends HTMLElement {
         this.innerHTML = "";
         window.removeEventListener("component-changed", this.handler);
     }
-
-    attributeChangedCallback(name, oldVal, newVal) {
-        if (oldVal !== newVal) {
-            this.disconnectedCallback();
-            this.connectedCallback();
-        }
-    }
 }
 
 customElements.define("mf-component", MfComponent);
