@@ -8,7 +8,7 @@ Done with commands:
 - `npm init piral-instance ./app-shell --name app-shell --framework piral-base`
 - `npm init pilet`
 
-Remember to publish your pilet into the feed service.
+Remember to publish your pilet into the feed service otherwise you will use the pilets served automatically from debug into `/$pilet-api` folder.
 
 Debug the pilet with a specific app shell with:
 - `npx pilet debug --app app-shell`
